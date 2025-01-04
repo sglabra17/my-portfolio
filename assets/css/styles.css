@@ -30,7 +30,7 @@ body {
 }
 
 ul > li {
-    /* background: green; */
+    background: none;
 }
 
 .nav-itms {
@@ -42,3 +42,9 @@ ul > li {
     margin-left: 2em;
 }
 
+/* Main Content*/
+.main {
+    margin-top: 4em;
+    padding: 1em;
+    background: rgb(206, 169, 169);
+}
