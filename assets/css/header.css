@@ -1,14 +1,31 @@
-
 .header {
     margin-left: 3em;
 }
 
+/* Title and Description */
 .title {
     margin-bottom: .25em;
-    border: solid 1px;
+    font-size: 2rem;
+    /* border: solid 1px; */
 }
 
 .aboutme {
     line-height: 1.5em;
-    border: solid 1px;
+    font-size: 1.5rem;
+    /* border: solid 1px; */
+}
+
+.jobtitle {
+    color: #4a964b;
+}
+
+/* Image of Me */
+.photo-ctnr {
+    text-align: right;
+}
+
+.my-photo {
+    margin-top: -14em;
+    margin-right: 10em;
+    border-radius: 7em;
 }
