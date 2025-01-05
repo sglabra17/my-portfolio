@@ -43,8 +43,10 @@ ul > li {
     margin-left: 2em;
 }
 
+
 /* Main Content*/
 .main {
     margin-top: 5em;
     padding: 1em;
+    /* border: solid; */
 }
