@@ -15,13 +15,13 @@ body {
     Navigation Bar
 */
 .navbar {
+    /* background: rgb(206, 153, 153); */
     margin-bottom: 4em;
     padding: 1em;
-    /* background: rgb(206, 153, 153); */
-    text-align: right;
 }
 
 .nav-ctnr {
+    /* background: yellow; */
     display: flex;
 }
 
