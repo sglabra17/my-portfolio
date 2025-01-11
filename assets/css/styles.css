@@ -12,7 +12,8 @@ body {
 
 
 /** 
-    Navigation Bar
+    Desktop
+    Navigation Bar ( +1050px width )
 */
 .navbar {
     /* background: rgb(206, 153, 153); */
@@ -31,7 +32,7 @@ body {
     display: inline-block;
 }
 
-ul > li {
+.logo {
     background: none;
 }
 
@@ -50,3 +51,9 @@ ul > li {
     /* border: solid; */
     padding: 1em;
 }
+
+
+/** 
+    Responsive - Mobile
+    Navigation Bar ( -1050px width )
+*/

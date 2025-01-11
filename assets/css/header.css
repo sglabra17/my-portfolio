@@ -20,6 +20,7 @@
 /* Title and Description */
 .about-ctnr {
     /* background: yellow; */
+    margin-top: -1em;
     margin-left: 6.5em;
     align-self: center;
 }
@@ -33,13 +34,14 @@
 .title {
     /* border: solid; */
     margin-bottom: .5em;
-    font-size: 2rem;
+    /* font-size: 2rem; */
+    font-size: 2.25rem;
 }
 
 .aboutme {
     /* border: solid; */
     line-height: 1.5em;
-    font-size: 1.25rem;
+    font-size: 1.5rem;
 }
 
 .jobtitle {
