@@ -1,3 +1,10 @@
+:root {
+    --my-green: #58b35a;
+    --my-green2: #4a964b;
+    --txt-color: #3E4759;
+}
+
+
 *, *:before, *:after {
     margin: 0;
     padding: 0;
@@ -41,8 +48,8 @@ body {
 
 .logo:hover {
     margin-left: .15em;
-    box-shadow: .25px 3px 3px 0 #58b35a,
-                .25px 3px 3px 0 #58b35a inset;
+    box-shadow: .25px 3px 3px 0 var(--my-green),
+                .25px 3px 3px 0 var(--my-green) inset;
     cursor: pointer;
 }
 
@@ -63,6 +70,30 @@ body {
     /* background: green; */
     margin-left: 2.5em;
     align-self: center;
+    transition: 300ms;
+}
+
+.nav-itms li:hover {
+    color: var(--my-green);
+    cursor: pointer;
+}
+
+.btn-cv > a {
+    /* background-color: red; */
+    padding: .75em 1em;
+    /* border */
+    border: solid .05em var(--my-green2);
+    border-radius: .25em;
+    /* colors */
+    text-decoration: none;
+    color: var(--my-green2);
+    transition: 300ms;
+}
+
+.btn-cv > a:hover {
+    box-shadow: 3px 3px 3px 0 var(--my-green);
+    cursor: pointer;
+    color: var(--my-green2);
 }
 
 
