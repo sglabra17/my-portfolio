@@ -1,6 +1,6 @@
 .header {
     /* border: solid green; */
-    padding-left: 15%;
+    padding-left: 10%;
     display: flex;
 }
 
@@ -34,7 +34,6 @@
 .title {
     /* border: solid; */
     margin-bottom: .5em;
-    /* font-size: 2rem; */
     font-size: 2.25rem;
 }
 
