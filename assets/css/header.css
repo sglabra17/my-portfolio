@@ -1,5 +1,5 @@
 :root {
-    --my-green: #58b35a;
+    --my-green:  #58b35a;
     --my-green2: #4a964b;
     --txt-color: #3E4759;
 }
@@ -13,11 +13,12 @@
 
 /* Image of Me */
 .photo-ctnr {
-    border: none;
+    /* border: solid; */
+    align-self: center;
 }
 
 .my-photo {
-    /* border: solid; */
+    /* border: solid purple; */
     border-radius: 8em;
     box-shadow: 3px 4px 5px 2px hsla(0, 49%, 10%, 0.425);
 }
@@ -26,13 +27,13 @@
 /* Title and Description */
 .about-ctnr {
     /* background: yellow; */
-    margin-top: -1em;
     margin-left: 6.5em;
+    margin-top: -1em;
     align-self: center;
 }
 
 .greeting {
-    /* font-size: 1rem; */
+    font-size: 1rem; /* Font Size for Small Text */
     margin-bottom: 1.25em;
     word-spacing: .15em;
     color: var(--my-green2);
@@ -41,13 +42,13 @@
 .title {
     /* border: solid; */
     margin-bottom: .5em;
-    font-size: 2.25rem;
+    font-size: 2.25rem; /* Font Size for Titles */
 }
 
 .aboutme {
     /* border: solid; */
     line-height: 1.5em;
-    font-size: 1.5rem;
+    font-size: 1.5rem; /* Font Size for Normal Text */
 }
 
 .jobtitle {

@@ -1,9 +1,8 @@
 :root {
-    --my-green: #58b35a;
+    --my-green:  #58b35a;
     --my-green2: #4a964b;
     --txt-color: #3E4759;
 }
-
 
 *, *:before, *:after {
     margin: 0;
@@ -19,13 +18,13 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 1rem;
     /* colors */
-    color: #3E4759;
+    color: var(--txt-color);
 }
 
 
 /** 
-    Desktop
-    Navigation Bar ( +1050px width )
+    Desktop ( +1000px width )
+    Navigation Bar 
 */
 .navbar {
     /* background: rgb(206, 153, 153); */
@@ -33,10 +32,15 @@ body {
     padding: 1em;
 }
 
-.nav-ctnr {
+.ul-ctnr {
     /* background: yellow; */
     display: flex;
 }
+
+/* navigation bar items */
+.ul-ctnr a { all: unset; }
+
+nav li { list-style: none; }
 
 
 /* logo */
@@ -53,12 +57,7 @@ body {
     cursor: pointer;
 }
 
-
-/* list items */
-.navbar li {
-    display: inline-block;
-}
-
+/* navigation options */
 .nav-itms {
     /* background: red; */
     margin-left: auto;
@@ -78,6 +77,7 @@ body {
     cursor: pointer;
 }
 
+
 .btn-cv > a {
     /* background-color: red; */
     padding: .75em 1em;
@@ -85,7 +85,6 @@ body {
     border: solid .05em var(--my-green2);
     border-radius: .25em;
     /* colors */
-    text-decoration: none;
     color: var(--my-green2);
     transition: 300ms;
 }
@@ -106,6 +105,6 @@ body {
 
 
 /** 
-    Responsive - Mobile
-    Navigation Bar ( -1050px width )
+    Responsive - Mobile ( -1000px width )
+    Navigation Bar 
 */
