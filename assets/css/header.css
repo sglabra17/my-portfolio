@@ -4,6 +4,12 @@
     --txt-color: #3E4759;
 }
 
+*, *:before, *:after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 .header {
     /* border: solid green; */
     padding-left: 10%;
@@ -13,16 +19,19 @@
 
 /* Image of Me */
 .photo-ctnr {
-    /* border: solid; */
+    /* border: solid pink; */
     align-self: center;
 }
 
-.my-photo {
+
+.my-photo,
+.my-photo-res {
     /* border: solid purple; */
     border-radius: 8em;
     box-shadow: 3px 4px 5px 2px hsla(0, 49%, 10%, 0.425);
 }
 
+.my-photo-res {display: none;}
 
 /* Title and Description */
 .about-ctnr {
@@ -56,3 +65,65 @@
 }
 
 
+
+/** 
+    Responsive - Mobile ( -1000px width )
+    Header
+*/
+@media screen and (max-width: 1000px){
+    .header {
+        padding: 1em;
+        display: block;
+    }
+
+    .photo-ctnr {
+        /* border: solid; */
+        margin-bottom: 2em;
+    }
+    
+    .my-photo {display: none;}
+    
+    .my-photo-res{
+        /* border: solid; */
+        display: block;
+        margin: 0 auto;
+        /* width: 200px; */
+        border-radius: 50%;
+    }
+
+    .about-ctnr {
+        /* border: solid; */
+        margin: 0;
+        text-align: center;
+        /* width: 250px; */
+    }
+
+}
+
+@media screen and (max-width: 603px){
+    .nav-itms {
+        gap: 1em;
+    }
+}
+
+@media screen and (max-width: 400px){
+    .nav-itms { gap: 1.5em; }
+}
+
+@media screen and (max-width: 350px) {
+    .about-ctnr {
+        width: 250px;
+    }
+}
+
+@media screen and (max-width: 335px){
+    .my-photo-res{
+        margin: 0;
+    }
+}
+
+@media screen and (max-width: 300px) {
+    .about-ctnr {
+        width: 250px;
+    }
+}
