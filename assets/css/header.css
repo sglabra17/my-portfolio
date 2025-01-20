@@ -25,7 +25,7 @@
     box-shadow: 3px 4px 5px 2px hsla(0, 49%, 10%, 0.425);
 }
 
-.my-photo-res {display: none;}
+.my-photo-res { display: none; }
 
 
 /* Title and Description */
@@ -37,6 +37,7 @@
 }
 
 .greeting {
+    /* border: solid; */
     margin-bottom: 1.25em;
     font-size: 1rem; /* Font Size for Small Text */
     word-spacing: .15em;
@@ -50,7 +51,7 @@
 }
 
 .aboutme {
-    /* border: solid; */
+    /* border: solid orange; */
     line-height: 1.5em;
     font-size: 1.5rem; /* Font Size for Normal Text */
 }
@@ -69,6 +70,8 @@
         padding: 1em;
     }
 
+    .photo-ctnr { margin-bottom: 2em; }
+
     .my-photo { display: none; }
     
     .my-photo-res{
@@ -76,8 +79,6 @@
         margin: 0 auto;
     }
 
-    .photo-ctnr { margin-bottom: 2em; }
-    
     .about-ctnr {
         margin: 0;
         text-align: center;
@@ -86,5 +87,9 @@
 
 /* About Container for Mobile */
 @media screen and (max-width: 365px) {
-    .about-ctnr { width: 260px; }
+    .my-photo-res { width: 100%; }
+}
+
+@media screen and (max-width: 300px) {
+    .main, .navbar{ width: 260px; }
 }
