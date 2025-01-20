@@ -4,12 +4,6 @@
     --txt-color: #3E4759;
 }
 
-*, *:before, *:after {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
 .header {
     /* border: solid green; */
     padding-left: 10%;
@@ -33,17 +27,18 @@
 
 .my-photo-res {display: none;}
 
+
 /* Title and Description */
 .about-ctnr {
     /* background: yellow; */
+    align-self: center;
     margin-left: 6.5em;
     margin-top: -1em;
-    align-self: center;
 }
 
 .greeting {
-    font-size: 1rem; /* Font Size for Small Text */
     margin-bottom: 1.25em;
+    font-size: 1rem; /* Font Size for Small Text */
     word-spacing: .15em;
     color: var(--my-green2);
 }
@@ -60,70 +55,36 @@
     font-size: 1.5rem; /* Font Size for Normal Text */
 }
 
-.jobtitle {
-    color: var(--my-green2);
-}
+.jobtitle { color: var(--my-green2); }
 
 
 
 /** 
-    Responsive - Mobile ( -1000px width )
+    Responsive - Mobile ( -915px width )
     Header
 */
-@media screen and (max-width: 1000px){
+@media screen and (max-width: 915px){
     .header {
-        padding: 1em;
         display: block;
+        padding: 1em;
     }
 
-    .photo-ctnr {
-        /* border: solid; */
-        margin-bottom: 2em;
-    }
-    
-    .my-photo {display: none;}
+    .my-photo { display: none; }
     
     .my-photo-res{
-        /* border: solid; */
         display: block;
         margin: 0 auto;
-        /* width: 200px; */
-        border-radius: 50%;
     }
 
+    .photo-ctnr { margin-bottom: 2em; }
+    
     .about-ctnr {
-        /* border: solid; */
         margin: 0;
         text-align: center;
-        /* width: 250px; */
-    }
-
-}
-
-@media screen and (max-width: 603px){
-    .nav-itms {
-        gap: 1em;
     }
 }
 
-@media screen and (max-width: 400px){
-    .nav-itms { gap: 1.5em; }
-}
-
-@media screen and (max-width: 350px) {
-    .about-ctnr {
-        width: 250px;
-    }
-}
-
-@media screen and (max-width: 335px){
-    .my-photo-res{
-        margin: 0;
-    }
-}
-
-@media screen and (max-width: 300px) {
-    .about-ctnr {
-        width: 250px;
-    }
+/* About Container for Mobile */
+@media screen and (max-width: 365px) {
+    .about-ctnr { width: 260px; }
 }
